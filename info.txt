@@ -1,0 +1,14 @@
+- App
+    - Tela1
+       - Comp1
+    - Tela2
+       - Comp2
+'
+Flux > Flux com regras == Redux
+
+  - Store: (single source truth)
+  - alterado por reducers:
+    - recebe 1 action, recebe store atual, retorna store novo
+    - pure function
+  - reagem a actions
+    - objeto simples
